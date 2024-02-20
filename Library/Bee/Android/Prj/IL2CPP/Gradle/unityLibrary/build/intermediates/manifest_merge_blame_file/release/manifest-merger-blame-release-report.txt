@@ -1,0 +1,201 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.unity3d.player"
+4    android:installLocation="auto"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="29"
+9-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-feature
+12-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:3-111
+13        android:name="android.hardware.vr.headtracking"
+13-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:17-64
+14        android:required="true"
+14-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:85-108
+15        android:version="1" />
+15-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:26:65-84
+16    <uses-feature android:glEsVersion="0x00020000" />
+16-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:3-52
+16-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:27:17-49
+17    <uses-feature android:name="android.hardware.vulkan.version" />
+17-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:3-66
+17-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:28:17-63
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:3-65
+19-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:29:20-62
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:3-77
+20-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:30:20-74
+21    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+21-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:3-69
+21-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:31:20-66
+22    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+22-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:3-78
+22-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:32:20-75
+23
+24    <uses-feature
+24-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:3-87
+25        android:name="android.hardware.microphone"
+25-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:17-59
+26        android:required="false" />
+26-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:33:60-84
+27    <uses-feature
+27-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:3-88
+28        android:name="android.hardware.touchscreen"
+28-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:17-60
+29        android:required="false" />
+29-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:34:61-85
+30    <uses-feature
+30-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:3-99
+31        android:name="android.hardware.touchscreen.multitouch"
+31-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:17-71
+32        android:required="false" />
+32-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:35:72-96
+33    <uses-feature
+33-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:3-108
+34        android:name="android.hardware.touchscreen.multitouch.distinct"
+34-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:17-80
+35        android:required="false" />
+35-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:36:81-105
+36
+37    <application
+37-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-25:17
+38        android:allowBackup="false"
+38-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:81-108
+39        android:extractNativeLibs="true"
+39-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:109-141
+40        android:icon="@mipmap/app_icon"
+40-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:49-80
+41        android:label="@string/app_name"
+41-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+42        android:networkSecurityConfig="@xml/network_sec_config" >
+42-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:142-197
+43        <activity
+43-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:5-12:16
+44            android:name="com.unity3d.player.UnityPlayerActivity"
+44-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:80-133
+45            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|screenSize|uiMode|density"
+45-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:262-371
+46            android:excludeFromRecents="true"
+46-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:134-167
+47            android:exported="true"
+47-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:168-191
+48            android:hardwareAccelerated="false"
+48-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:407-442
+49            android:launchMode="singleTask"
+49-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:230-261
+50            android:resizeableActivity="false"
+50-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:372-406
+51            android:screenOrientation="landscape"
+51-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:192-229
+52            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+52-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:15-79
+53            <intent-filter>
+53-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:7-9:23
+54                <action android:name="android.intent.action.MAIN" />
+54-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:9-61
+54-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:17-58
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:9-69
+56-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:19-66
+57                <category android:name="com.oculus.intent.category.VR" />
+57-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:9-66
+57-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:19-63
+58            </intent-filter>
+59
+60            <meta-data
+60-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:7-78
+61                android:name="android.notch_support"
+61-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:18-54
+62                android:value="true" />
+62-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:55-75
+63            <meta-data
+63-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:7-81
+64                android:name="com.oculus.vr.focusaware"
+64-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:18-57
+65                android:value="true" />
+65-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:58-78
+66        </activity>
+67
+68        <meta-data
+68-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:5-89
+69            android:name="unityplayer.SkipPermissionsDialog"
+69-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:16-64
+70            android:value="false" />
+70-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:13:65-86
+71        <meta-data
+71-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-97
+72            android:name="com.samsung.android.vr.application.mode"
+72-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-70
+73            android:value="vr_only" />
+73-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:71-94
+74        <meta-data
+74-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-69
+75            android:name="unity.splash-mode"
+75-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-48
+76            android:value="0" />
+76-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:49-66
+77        <meta-data
+77-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-74
+78            android:name="unity.splash-enable"
+78-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-50
+79            android:value="True" />
+79-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:51-71
+80        <meta-data
+80-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-78
+81            android:name="unity.launch-fullscreen"
+81-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-54
+82            android:value="True" />
+82-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:55-75
+83        <meta-data
+83-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-84
+84            android:name="unity.allow-resizable-window"
+84-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-59
+85            android:value="False" />
+85-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:60-81
+86        <meta-data
+86-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-81
+87            android:name="notch.config"
+87-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-43
+88            android:value="portrait|landscape" />
+88-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:44-78
+89        <meta-data
+89-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:5-84
+90            android:name="unity.auto-report-fully-drawn"
+90-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:16-60
+91            android:value="true" />
+91-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:61-81
+92        <meta-data
+92-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:5-91
+93            android:name="com.unity.xr.oculus.LowOverheadMode"
+93-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:16-66
+94            android:value="false" />
+94-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:67-88
+95        <meta-data
+95-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:5-88
+96            android:name="com.unity.xr.oculus.LateLatching"
+96-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:16-63
+97            android:value="false" />
+97-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:64-85
+98        <meta-data
+98-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:5-93
+99            android:name="com.unity.xr.oculus.LateLatchingDebug"
+99-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:16-68
+100            android:value="false" />
+100-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:69-90
+101        <meta-data
+101-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:5-90
+102            android:name="com.oculus.supportedDevices"
+102-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:16-58
+103            android:value="quest|quest2" />
+103-->D:\Digital ARt\Instalacion\EmojiFinal\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:59-87
+104    </application>
+105
+106</manifest>
